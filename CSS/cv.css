@@ -1,0 +1,138 @@
+header
+{
+   text-align: right;
+   color : white;
+   background: url("../images/header.jpg") no-repeat;
+   background-size: cover;
+   height: auto;
+   width: 100vw;
+}
+
+h1,h2,h3
+{
+    padding:0;
+    margin:0;
+}
+
+header a
+{
+    color: white;
+}
+
+#infosperso
+{
+    padding:2vw;
+}
+nav
+{
+    text-align: left;
+    height: 2rem;
+    width: 100vw;
+}
+
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+nav li
+{
+    display: inline-block;
+    width: 10rem;
+}
+
+nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover
+{
+    font-weight: bold;
+}
+
+body
+{
+    margin: 0;
+    padding:0;
+    font-family: "Arial","Verdana";
+    font-size: 0.9rem;
+    background-color: lightgray ;
+    height: 100%;
+    width: 100vw;
+
+}
+
+section
+{
+    margin: 0;
+    padding:0;
+    position: relative;
+    width: 60vw;
+    height: 50vh;
+
+}
+
+article ul
+{
+    list-style-type: none;
+}
+
+aside
+{
+   position: relative;
+   margin-top : -50vh;
+   margin-left: 60vw;
+   width: 40vw;
+ }
+
+aside ol
+{
+    list-style-type: none;
+}
+
+footer
+{
+   position: fixed;
+   bottom: 0;
+   width: 100vw;
+   height: auto;
+   color : white;
+}
+
+.bg-color-blue
+{
+    background-color: #060325;
+}
+
+.txt-color-blue
+{
+    color: #060325;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.right
+{
+    text-align: right;
+}
+
+.border
+{
+    border: 1px grey solid;
+}
+
+.border-left
+{
+    border-left: 1px grey solid;
+}
+.periode
+{
+    color : #2715CB;
+    font-style: italic;
+}
